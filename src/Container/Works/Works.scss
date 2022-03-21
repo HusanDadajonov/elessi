@@ -1,0 +1,11 @@
+.works{
+    padding: 15px 0;
+
+    &__img{
+        transition: all 0.4s ease-in-out;
+    }
+    &__item:hover &__img{
+        opacity: 0.6;
+        cursor: pointer;
+    }
+}

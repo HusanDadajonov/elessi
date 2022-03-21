@@ -1,0 +1,30 @@
+.services{
+    &__list{
+        padding: 40px 0;
+    }
+
+    &__item{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+
+        & svg{
+            color: #6bad0d;
+            font-size: 40px;
+            margin-bottom: 15px;
+        }
+    }
+
+    &__title{
+        color: #222222; 
+        font-size: 21px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+
+    &__desc{
+        color: #878787;
+        line-height: 1.5;
+        font-size: 14.5px;
+    }
+}
